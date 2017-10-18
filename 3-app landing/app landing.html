@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		
+		<style type="text/css">
+			body{
+				position:relative;
+			}
+			
+			.jumbotron {
+				background-image:url(image/bg1.jpg);
+				text-align:center;
+			}
+			#email {
+				width:300px;
+			}
+			#summary {
+				text-align:center;
+				margin:40px 0;
+			}
+			.card-img-top {
+				width:100%;
+			}
+			#footer {
+				text-align:center;
+				margin:40px 0;
+				padding:40px 0;
+				background-image:url(image/bg1.jpg);
+			}
+			#downloadIcon {
+				width:200px;
+			}
+		</style>
+	</head>
+	<body  data-spy="scroll" data-target="#navbarSupportedContent">
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#"><i class="fa fa-cutlery" aria-hidden="true"></i> TastyNearMe</a>
+
+			 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+				  <li class="nav-item">
+					<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#summary">About</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#footer">Download the App</a>
+				  </li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+				  <input class="form-control mr-sm-2" type="email" placeholder="Email">
+				  <input class="form-control mr-sm-2" type="password" placeholder="Password">
+				  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+				</form>
+			</div>
+		</nav>
+		
+		<div class="jumbotron" id="home">
+			<h1 class="display-3">TastyNearMe, Awesome!</h1>
+			<p class="lead">Learn tasty places nearby, and share to your family and friends.</p>
+			<hr class="my-4">
+			<p>Want to know something more? Join our mailing list!</p>
+			<form class="form-inline justify-content-center">
+				<label class="sr-only" for="email">Email Address</label>
+				<div class="input-group mb-2 mr-sm-2 mb-sm-0">
+					<div class="input-group-addon">@</div>
+					<input type="email" class="form-control" id="email" placeholder="Your Email">
+				</div>
+				<button type="submit" class="btn btn-primary">Sign Up</button>
+			</form>
+		</div>		
+		
+		<div class="container">
+			<div id="summary">
+				<h1>Why TastyNearMe is Awesome?</h1>
+				<p class="lead">Provide an easy way to find the best food offers and places to eat near you!<br>Find the nearest restaurants just by using your location<br>Or, just type in the address, the name or the zip code</p>
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="card-deck">
+			  <div class="card">
+				<img class="card-img-top" src="image/bg2.jpg" alt="Card image cap">
+				<div class="card-block">
+				
+				  <h4 class="card-title"><i class="fa fa-thumbs-up" aria-hidden="true"></i> More Info</h4>
+				  <p class="card-text">Furthermore, Restaurant Finder is not only making sure that you don’t get hungry, but also finds the information about open for delivery restaurants, cafes, gas stations, hotels, taxis, pubs, supermarkets and reviews for them all</p>
+				</div>
+			  </div>
+			  <div class="card">
+				<img class="card-img-top" src="image/bg2.jpg" alt="Card image cap">
+				<div class="card-block">
+				  <h4 class="card-title"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Store Hour</h4>
+				  <p class="card-text">You can find all the information you might need, such as opening and working hours, phone numbers and much more!</p>
+				</div>
+			  </div>
+			  <div class="card">
+				<img class="card-img-top" src="image/bg2.jpg" alt="Card image cap">
+				<div class="card-block">
+				  <h4 class="card-title"><i class="fa fa-thumbs-up" aria-hidden="true"></i> Worldwide</h4>
+				  <p class="card-text">This simple, easy, fast, and fun food finder works worldwide, but will work best if you are in USA, UK, Ireland, Canada, Germany, Italy, France, Spain, Denmark, India, Australia, Brazil, Malaysia and Thailand</p>
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<h2>Download the app here!</h2>
+			<p class="lead">If you like try new things, just do it right now</p>
+			<p><a href=""><img id="downloadIcon" src="image/download.png"></a></p>
+		</div>
+		
+		<!-- jQuery first, then Tether, then Bootstrap JS. -->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			
+		</script>
+	</body>
+</html>
